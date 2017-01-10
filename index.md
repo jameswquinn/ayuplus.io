@@ -12,7 +12,7 @@ branding: true
 bg_image: assets/images/poster.jpg
 bg_video: assets/videos/black
 show_bg_video: true
-image: assets/images/poster.jpg
+image: /assets/images/poster.jpg
 alt: We needed an image to demo
 navigation_weight: 1
 navigation_title: home
