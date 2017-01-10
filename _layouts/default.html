@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+    <style>
+        body {
+            height: 3000px;
+        }
+.top_nav__panel {
+    transition: 300ms;
+}
+</style>
+
+{% include nav.html %}
+{{ content }}
+{% include scripts.html %}
+<script>
+$(document).ready(function () {
+    var scroll_pos = 0;
+    $(".top_nav__panel").scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 150) {
+            $(".top_nav__panel").css('background-color', 'rgba(0, 0, 0, 0.8)');
+        } else {
+            $(".top_nav__panel").css('background-color', 'transparent');
+        }
+        console.log(scroll_pos);
+    });
+});
+</script>
+</body>
+</html>
