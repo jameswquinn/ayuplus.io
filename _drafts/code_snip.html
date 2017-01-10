@@ -10,23 +10,23 @@
     overflow:auto;
     height:2000px;
     }
-.topnav_panel {
+.top_nav__panel {
     transition: 300ms;
 }
 </style>
 <script src="https://cdn.jsdelivr.net/zepto/1.2.0/zepto.min.js"></script>
-<div class="content topnav_panel">
+<div class="content top_nav__panel">
     <div style="height:5000px;">CONTENT</div>
 </div>
 <script>
 $(document).ready(function () {
     var scroll_pos = 0;
-    $(".topnav_panel").scroll(function () {
+    $(".top_nav__panel").scroll(function () {
         scroll_pos = $(this).scrollTop();
         if (scroll_pos > 150) {
-            $(".topnav_panel").css('background-color', 'rgba(0, 0, 0, 0.8)');
+            $(".top_nav__panel").css('background-color', 'rgba(0, 0, 0, 0.8)');
         } else {
-            $(".topnav_panel").css('background-color', 'transparent');
+            $(".top_nav__panel").css('background-color', 'transparent');
         }
         console.log(scroll_pos);
     });
