@@ -5,7 +5,7 @@
             <ul class="nav">
                 {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}{% for nav-item in navigation_pages %}{% if nav-item.navigation_weight %}
                 <li class="nav__item ">
-                    <a {% if nav-item.url == page.url %} class="header__link line-through__active" {% else %} class="header__link"{% endif %} href="{{ nav-item.url | prepend: site.baseurl }}">
+                    <a {% if nav-item.url == page.url %} class="header__link line-through__active" {% else %} class="header__link"{% endif %} href="{{ nav-item.url }}">
                         <span class="complimentary">.{{ nav-item.navigation_title }}</span>
                     </a>
                 </li>
