@@ -17,7 +17,7 @@ title: Welcome to the creatives
 email: support@ayuplus.io
 description: > # this means to ignore newlines until "baseurl:"
   We are a leading Digital Agency with offices in London and Rome. Since 2006, we have helped many businesses go digital. From luxury fashion brands to pharmaceutical companies, by way of accountancy firms, our expertise is lavish, and our know-how is enviable. As a leading Magento & eCommerce agency, we have a thorough knowledge of each of the following sectors, because the difference between a fancy sequin blouse and Paracetamol is actually quite big, in the digital world. Le plat du jour? Web design, branding, eCommerce, social media and digital marketing.
-baseurl: "ayuplus.io/" # the subpath of your site, e.g. /blog
+baseurl: "ayuplus.io" # the subpath of your site, e.g. /blog
 url: "https://jameswquinn.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
